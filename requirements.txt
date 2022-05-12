@@ -1,0 +1,4 @@
+python-decouple
+pika
+git+https://github.com/shotgunsoftware/python-api.git
+six
