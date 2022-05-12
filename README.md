@@ -1,13 +1,13 @@
 
-# Gazu event watcher
+# Shotgrid event watcher
 
-Service used to listen for gazu events and dispatch them to event bus.
+Service used to listen for Shotgrid events and dispatch them to event bus.
 
 
 ## Acknowledgements
 
- - [Gazu](https://pypi.org/project/gazu/)
- - [Gazu events](https://gazu.cg-wire.com/events.html)
+ - [shotgrid](https://developer.shotgridsoftware.com/python-api/)
+ - [Shotgrid events](https://github.com/shotgunsoftware/shotgunEvents)
 
 
 ## Installation
