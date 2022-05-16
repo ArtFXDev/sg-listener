@@ -6,7 +6,7 @@ from pika import ConnectionParameters
 
 BROKER_URL = config("BROKER_URL")
 BROKER_EXCHANGE_NAME = config("BROKER_EXCHANGE_NAME")
-WORKER_QUEUE_NAME = config("WORKER_QUEUE_NAME")
+SG_WORKER_QUEUE_NAME = config("SG_WORKER_QUEUE_NAME")
 
 
 def digest_event(channel, delivery, properties, payload):
